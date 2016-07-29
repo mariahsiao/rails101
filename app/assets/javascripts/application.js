@@ -13,5 +13,6 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require/dropdown
 //= require bootstrap/alert
 //= require_tree .
