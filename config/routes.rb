@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
 
-  resources :groups
   root 'groups#index'
+  resources :groups do
+    resources :posts
+  end
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
